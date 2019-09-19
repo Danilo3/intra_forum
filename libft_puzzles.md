@@ -54,7 +54,7 @@ ___
 - **ft_strnlen**. Returns the minimum value of the length of the string and the maximum size (buffer). Возвращает минимальное значение из длины строки и максимального размера (буфера).
 ___
 ### Table 2. Таблица 2.
-| name имя      | part часть    | order порядок |
+| name/имя      | part/часть    | order/порядок |
 | ------------- | ------------- | ------------- |
 |ft_ischar      | Expansion	    |  1            |      
 |ft_isdigit	    | Part1	        |  1            |   
