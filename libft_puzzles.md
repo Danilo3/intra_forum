@@ -1,5 +1,6 @@
-##Libft puzzles. Загадки первой библиотеки. 
-###Authour: @ftothmur
+## Libft puzzles. Загадки первой библиотеки. 
+
+### Authour: @ftothmur
 
 ### Good afternoon friends.
 
