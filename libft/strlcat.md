@@ -84,8 +84,8 @@ ___
 ### Table 2. Таблица 2.
 
 |        Before :        |       After :      |
-| dst | src   | size     | dst      | return  |
-| ---------------------- |------------------- |
+| dst  | src    | size   | dst      | return  |
+| ---- | --------------- |--------- | ------- |
 |dst\0 | src\0 | 0       | dst\0    | 3       |
 |dst\0 | src\0 | 1       | dst\0    | 4       |
 |dst\0 | src\0 | 2       | dst\0    | 5       |
