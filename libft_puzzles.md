@@ -1,6 +1,6 @@
 ## Libft puzzles. Загадки первой библиотеки. [ENG/RUS]
 
-### Authour: @ftothmur
+### Authour: [@ftothmur](https://profile.intra.42.fr/users/ftothmur)
 
 ### Good afternoon friends.
 
