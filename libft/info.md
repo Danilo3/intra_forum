@@ -52,4 +52,4 @@
 
 4) про порядок функций
    - [Origin](https://forum.intra.42.fr/topics/20397/messages)
-   - [Github]()
+   - [Github](https://github.com/Danilo3/intra_forum/blob/master/libft/libft_puzzles.md)
