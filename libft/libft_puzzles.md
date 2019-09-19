@@ -2,6 +2,8 @@
 
 ### Authour: [@ftothmur](https://profile.intra.42.fr/users/ftothmur)
 
+![Library](/images/library_puzzle.jpg)
+
 ### Good afternoon friends.
 
 **One of the most exciting parts of the libft project was the quest: to determine the optimal order of designing functions. This worries me so far, and I decided to share my work with you.In essence, this is a realization of the principle ["DRY": Do not repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)**
