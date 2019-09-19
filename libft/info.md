@@ -1,8 +1,8 @@
-# General info about libft
+## General info about libft
 
-## Author: [@ayellin](https://profile.intra.42.fr/users/ayellin)
+### Author: [@ayellin](https://profile.intra.42.fr/users/ayellin)
 
-### Chekers:
+#### Chekers:
 
 - [BeerTest](https://github.com/Dgreat21/21libftbeertest)
  говорят что проверяет прототипы функций
@@ -16,7 +16,7 @@
 - [libft_test_system](https://github.com/sitlcead/42_libft_test_system)
   Хороший чекер со множеcтвом тестов. При использовании юникода в `ft_putchar` некоторые тесты не пройдут проверку
 
-### F.A.Q
+#### F.A.Q
 
 Внимательней прочитайте subject. На большинство вопросов там есть ответы.
 
@@ -40,7 +40,7 @@
 
    **ОТВЕТ:** На примере этого проекта можно осовоить базовые функции в С плюс опытные пиры говорят что используют библиотеку (расширенную версию конечно) во всех школьных проектах на С.
 
-### Useful posts:
+#### Useful posts:
 
 1) Про обработку переполнения в `ft_atoi`
    - [Original](https://forum.intra.42.fr/topics/21586/)
