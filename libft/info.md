@@ -44,11 +44,11 @@
 
 1) Про обработку переполнения в `ft_atoi`
    - [Original](https://forum.intra.42.fr/topics/21586/)
-   - [Github]()
+   - [Github](https://github.com/Danilo3/intra_forum/blob/master/libft/atoi.md)
  
 2) Как не завалить первую библиотеку
    - [Original](https://forum.intra.42.fr/topics/19883/)
-   - [Github]()
+   - [Github](https://github.com/Danilo3/intra_forum/blob/master/libft/libft-commmon_errors.md)
  
 3) про `ft_strlcat`
    - [Original](https://forum.intra.42.fr/topics/20387/)
@@ -60,4 +60,4 @@
 
 5) про Makefile
    - [Origin](https://forum.intra.42.fr/topics/20222/messages)
-   - [Github]()
+   - [Github](https://github.com/Danilo3/intra_forum/blob/master/libft/makefile.md)
