@@ -1,6 +1,7 @@
 ## Libft puzzles. Загадки первой библиотеки. [ENG/RUS]
 
 ### Authour: [@ftothmur](https://profile.intra.42.fr/users/ftothmur)
+### [Orignal](https://forum.intra.42.fr/topics/20397/messages?page=1)
 
 ![Library](/images/library_puzzle.jpg)
 
