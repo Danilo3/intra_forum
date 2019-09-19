@@ -34,7 +34,7 @@ What is the point of sharing the results and the return value, you ask. Well, th
 
 Try for clarification to conduct such [tests][Тесты взяты отсюда]:
 
-![table](images/table_strlcat.png)
+![table](/images/table_strlcat.png)
 
 ___
 
@@ -67,11 +67,11 @@ ___
 ### Подытожим.
 **_##### Функция **_Функция призвана склеивать две строки и возвращать показатель результатов работы. Третий параметр отвечает за предельное место, отведённое под результат. Если его хватает, чтобы впихнуть не только строку назначения, но и хоть что-то от строки источника, то склеивание происходит, а результирующая строка гарантировано нуль терминирована. Если нет, то склеивание даже не пытались начать и про конец строки никто и не вспоминает. В первом случае вернут сумму длин входных строк, во втором сумму длины выделенного места и строки назначения. И всё это время мы надеялись, что программа не завершиться неожиданно, когда строка назначения оказалась чем угодно, только не строкой Си._**
 
-Попробуйте для уяснения провести такие [тесты][Тесты взяты отсюда]:
+Попробуйте для уяснения провести такие [тесты](https://stackoverflow.com/questions/33154740/strlcat-is-dst-always-nul-terminated-what-are-size-and-the-returned-value):
 
-![table](images/table_strlcat.png)
+![table](/images/table_strlcat.png)
 
 ___
 [FreeBSD]: https://github.com/lattera/freebsd/blob/master/sys/libkern/strlcat.c
 [Apple]: https://opensource.apple.com/source/Libc/Libc-825.26/string/strlcat.c.auto.html
-[Тесты взяты отсюда]: https://stackoverflow.com/questions/33154740/strlcat-is-dst-always-nul-terminated-what-are-size-and-the-returned-value
+
