@@ -1,4 +1,4 @@
-## Libft puzzles. Загадки первой библиотеки. 
+## Libft puzzles. Загадки первой библиотеки. [ENG/RUS]
 
 ### Authour: @ftothmur
 
