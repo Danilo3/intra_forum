@@ -46,7 +46,7 @@
    - [Original](https://forum.intra.42.fr/topics/19883/)
    - Github
  
-3) про strlcat
+3) про `ft_strlcat`
    - [Original](https://forum.intra.42.fr/topics/20387/)
    - [Github]()
 
