@@ -39,17 +39,14 @@
 ### Useful posts:
 
 1) Про обработку инта
-
    - [Original](https://forum.intra.42.fr/topics/21586/)
    - Github
  
 2) Как не завалить первую библиотеку
-
    - [Original](https://forum.intra.42.fr/topics/19883/)
    - Github
  
 3) про strlcat
-
   - [Original](https://forum.intra.42.fr/topics/20387/)
   - [Github]()
 
