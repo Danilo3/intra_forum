@@ -19,9 +19,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-&lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-
 int main()
 {
 printf("sizeof(int) = %d\n", (int)sizeof(int));
