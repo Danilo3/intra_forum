@@ -38,7 +38,7 @@
 
 ### Useful posts:
 
-1) Про обработку инта
+1) Про обработку переполнения в `ft_atoi`
    - [Original](https://forum.intra.42.fr/topics/21586/)
    - Github
  
