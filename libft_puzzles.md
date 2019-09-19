@@ -44,17 +44,16 @@ ___
 Combinations (Комбинации): ft_strncpy : ft_strnlen + ft_strcpy + ft_bzero, ft_memccpy : ft_memcpy + ft_memchr, ft_memmove : ft_memcpy + ft_memrcpy, ft_memchr : ft_ischar etc. (и т.д.)*
 
 ___
-> &gt; **_Picture 2. Рисунок 2_**
-> &gt; **ft_ischar**. Takes two character values, returns 1 if the characters are equal, and 0 otherwise. Принимает два символьных значения, возвращает 1, если символы равны, и иначе 0.
-> &gt; **ft_islower**. Is an ASCII lowercase letter. Является ли строчной буквой из множества ASCII
-> &gt; **ft_isnotprint**. Denial ft_isprint. Отрицание ft_isprint.
-> &gt; **ft_isspace**. Whether the input character is a void character is one of 5 from ASCII set. Является ли входной символ знаком пустоты, одним из 5 из множества ASCII.
-> &gt; **ft_isupper**. Is it an ASCII capital letter? Является ли заглавной буквой из множества ASCII?
-> &gt; **ft_itostr**. Accepts an integer value and a pointer to a string. Converts an integer to a string. Принимает целое значение и указатель на строку. Преобразует целое в строку.
-> &gt; **ft_memjoin**. Some combination of ft_realloc and ft_strjoin, but only the boundaries of the memory sections are the sizes of the buffers. Некоторое объединение ft_realloc и ft_strjoin, но только границами участков памяти выступают размеры буферов.
-> &gt; **ft_memrcpy**. Copies, moving from the last character to the first. Копирует, двигаясь от последнего символа к первому.
-> &gt; **ft_realloc**. The handwritten implementation of the function of the same name, only this can be better protected, and then there is no way to do without passing the size of the buffer. Рукописная реализация одноимённой функции, только эту можно лучше защитить, и тут никак не обойтись без передачи размера буфера.
->**ft_strnlen**. &gt;**ft_strnlen**. Returns the minimum value of the length of the string and the maximum size (buffer). Возвращает минимальное значение из длины строки и максимального размера (буфера).
+- **ft_ischar**. Takes two character values, returns 1 if the characters are equal, and 0 otherwise. Принимает два символьных значения, возвращает 1, если символы равны, и иначе 0.
+- **ft_islower**. Is an ASCII lowercase letter. Является ли строчной буквой из множества ASCII
+- **ft_isnotprint**. Denial ft_isprint. Отрицание ft_isprint.
+- **ft_isspace**. Whether the input character is a void character is one of 5 from ASCII set. Является ли входной символ знаком пустоты, одним из 5 из множества ASCII.
+- **ft_isupper**. Is it an ASCII capital letter? Является ли заглавной буквой из множества ASCII?
+- **ft_itostr**. Accepts an integer value and a pointer to a string. Converts an integer to a string. Принимает целое значение и указатель на строку. Преобразует целое в строку.
+- **ft_memjoin**. Some combination of ft_realloc and ft_strjoin, but only the boundaries of the memory sections are the sizes of the buffers. Некоторое объединение ft_realloc и ft_strjoin, но только границами участков памяти выступают размеры буферов.
+- **ft_memrcpy**. Copies, moving from the last character to the first. Копирует, двигаясь от последнего символа к первому.
+- **ft_realloc**. The handwritten implementation of the function of the same name, only this can be better protected, and then there is no way to do without passing the size of the buffer. Рукописная реализация одноимённой функции, только эту можно лучше защитить, и тут никак не обойтись без передачи размера буфера.
+- **ft_strnlen**. Returns the minimum value of the length of the string and the maximum size (buffer). Возвращает минимальное значение из длины строки и максимального размера (буфера).
 ___
 ___
 ### Table 2. Таблица 2.
@@ -82,51 +81,51 @@ ___
 |ft_memchr	    |Part1		      |  2            | 
 |ft_memrcpy	    |Expansion	    |  2            | 
 |ft_putchar	    |Part2		      |  2            |
-|ft_putstr_fd	  |Part2	    2  
-|ft_striteri	  |Part2		2   
-|ft_strlen	    |Part1		2   
-|ft_strmapi	    |Part2		2    
-|ft_strncmp	    |Part1		2   
-|ft_tolower	    |Part1		2   
-|ft_toupper	    |Part1		2   
-|ft_isalnum	    |Part1		3 
-|ft_lstdelone	  |Bonus	    3   
-|ft_memalloc	  |Part2		3
-|ft_memccpy	    |Part1		3   
-|ft_memdel	    |Part2		3
-|ft_memmove	    |Part1		3 
-|ft_power	      |Expansion	3     
-|ft_putendl_fd	|Part2	    3    
-|ft_putstr	    |Part2		3     
-|ft_strcat	    |Part1		3     
-|ft_strclr	    |Part2		3     
-|ft_strcmp	    |Part1		3      
-|ft_strcpy	    |Part1		3       
-|ft_strjoin	    |Part2		3     
-|ft_strnchr	    |Expansion	3               
-|ft_strnequ	    |Part2		3     
-|ft_isprint	    |Part1		4      
-|ft_itoa	      |Part2		4      
-|ft_lstdel	    |Bonus		4     
-|ft_putendl	    |Part2		4      
-|ft_putnbr_fd   |Part2	    4      
-|ft_strchr	    |Part1		4     
-|ft_strdel	    |Part2		4     
-|ft_strdup	    |Part1		4      
-|ft_strequ	    |Part2		4     
-|ft_strlcat	    |Part1		4     
-|ft_strncat	    |Part1		4     
-|ft_strncpy	    |Part1		4    
-|ft_strnew	    |Part2		4      
-|ft_strnotchr   |Expansion	4                                           
-|ft_strrchr	    |Part1		4       
-|ft_isascii	    |Part1		5       
-|ft_lstadd	    |Bonus		5      
-|ft_putnbr	    |Part2		5       
-|ft_strnstr	    |Part1		5    
-|ft_lstiter	    |Bonus		6      
-|ft_strstr	    |Part1		6     
-|ft_lstmap	    |Bonus		7       
-|ft_strsub	    |Part2		7      
-|ft_strtrim	    |Part2		7     
-|ft_strsplit	  |Part2		8      
+|ft_putstr_fd	  |Part2	        |  2            |  
+|ft_striteri	  |Part2		      |  2            |   
+|ft_strlen	    |Part1		      |  2            |
+|ft_strmapi	    |Part2		      |  2            |    
+|ft_strncmp	    |Part1		      |  2            |   
+|ft_tolower	    |Part1		      |  2            |   
+|ft_toupper	    |Part1		      |  2            |   
+|ft_isalnum	    |Part1		      |  3            | 
+|ft_lstdelone	  |Bonus	        |  3            |   
+|ft_memalloc	  |Part2		      |  3            |
+|ft_memccpy	    |Part1		      |  3            |
+|ft_memdel	    |Part2		      |  3            |
+|ft_memmove	    |Part1		      |  3            |
+|ft_power	      |Expansion	    |  3            |     
+|ft_putendl_fd	|Part2	        |  3            |   
+|ft_putstr	    |Part2		      |  3            | 
+|ft_strcat	    |Part1		      |  3            |
+|ft_strclr	    |Part2		      |  3            |
+|ft_strcmp	    |Part1		      |  3            |
+|ft_strcpy	    |Part1		      |  3            |
+|ft_strjoin	    |Part2		      |  3            |
+|ft_strnchr	    |Expansion	    |  3            |           
+|ft_strnequ	    |Part2		      |  3            |
+|ft_isprint	    |Part1		      |  4            |
+|ft_itoa	      |Part2		      |  4            |
+|ft_lstdel	    |Bonus		      |  4            |
+|ft_putendl	    |Part2		      |  4            |
+|ft_putnbr_fd   |Part2	        |  4            |      
+|ft_strchr	    |Part1		      |  4            |      
+|ft_strdel	    |Part2		      |  4            |     
+|ft_strdup	    |Part1		      |  4            |      
+|ft_strequ	    |Part2		      |  4            |     
+|ft_strlcat	    |Part1		      |  4            |     
+|ft_strncat	    |Part1		      |  4            |     
+|ft_strncpy	    |Part1		      |  4            |    
+|ft_strnew	    |Part2		      |  4            |      
+|ft_strnotchr   |Expansion	    |  4            |                                           
+|ft_strrchr	    |Part1		      |  4            |       
+|ft_isascii	    |Part1		      |  5            |       
+|ft_lstadd	    |Bonus		      |  5            |      
+|ft_putnbr	    |Part2		      |  5            |       
+|ft_strnstr	    |Part1		      |  5            |    
+|ft_lstiter	    |Bonus		      |  6            |      
+|ft_strstr	    |Part1		      |  6            |     
+|ft_lstmap	    |Bonus		      |  7            |       
+|ft_strsub	    |Part2	        |	 7            |      
+|ft_strtrim	    |Part2		      |  7            |     
+|ft_strsplit	  |Part2		      |  8            |
