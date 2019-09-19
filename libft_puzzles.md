@@ -55,7 +55,6 @@ ___
 - **ft_realloc**. The handwritten implementation of the function of the same name, only this can be better protected, and then there is no way to do without passing the size of the buffer. Рукописная реализация одноимённой функции, только эту можно лучше защитить, и тут никак не обойтись без передачи размера буфера.
 - **ft_strnlen**. Returns the minimum value of the length of the string and the maximum size (buffer). Возвращает минимальное значение из длины строки и максимального размера (буфера).
 ___
-___
 ### Table 2. Таблица 2.
 | name имя      | part часть    | order порядок |
 | ------------- | ------------- | ------------- |
