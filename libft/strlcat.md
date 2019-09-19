@@ -1,5 +1,7 @@
-# Libft. Strlcat, function they didn't want to.[ENG/RUS]
-## Author: [@ftothmur](https://profile.intra.42.fr/users/ftothmur)
+## Libft. Strlcat, function they didn't want to.[ENG/RUS]
+
+### Author: [@ftothmur](https://profile.intra.42.fr/users/ftothmur)
+### [Origin](https://forum.intra.42.fr/topics/20387/messages)
 
 > «While this may seem somewhat confusing, it was done...»
 
