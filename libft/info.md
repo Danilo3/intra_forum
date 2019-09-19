@@ -52,7 +52,7 @@
  
 3) про `ft_strlcat`
    - [Original](https://forum.intra.42.fr/topics/20387/)
-   - [Github]()
+   - [Github](https://github.com/Danilo3/intra_forum/blob/master/libft/strlcat.md)
 
 4) про порядок функций
    - [Origin](https://forum.intra.42.fr/topics/20397/messages)
