@@ -1,3 +1,6 @@
+##Libft puzzles. Загадки первой библиотеки. 
+###Authour: @ftothmur
+
 ### Good afternoon friends.
 
 **One of the most exciting parts of the libft project was the quest: to determine the optimal order of designing functions. This worries me so far, and I decided to share my work with you.In essence, this is a realization of the principle ["DRY": Do not repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)**
@@ -54,75 +57,8 @@ ___
 ___
 ___
 ### Table 2. Таблица 2.
-| name имя | part часть | order порядок |
+| name имя      | part часть    | order порядок |
 | ------------- | ------------- | ------------- |
-| ft_atoi | Part 1 | 2 |
-| ft_bzero | Part 1 | 2 |
-| ft_isalnum | Part 1 | 3 |
-| ft_isalpha | Part 1 | 2 |
-| ft_isascii | Part 1 | 5 |
-| ft_ischar | Expansion | 1 |
-| ft_isdigit | Part 1 | 1 |
-| ft_islower | Expansion | 1 |
-| ft_isprint | Part 1 | 4 |
-| ft_isspace | Expansion | 1 |
-| ft_isupper | Expansion | 1 |
-| ft_itoa | Part 2 | 4 |
-| ft_itostr | Expansion | 1 |
-| ft_lstadd | Bonus | 5 |
-| ft_lstdel | Bonus | 4 |
-| ft_lstdelone | Bonus | 3 |
-| ft_lstiter | Bonus | 6 |
-| ft_lstmap | Bonus | 7 |
-| ft_lstnew | Bonus | 2 |
-| ft_memalloc | Part 2 | 3 |
-| ft_memccpy | Part 1 | 3 |
-| ft_memchr | Part 1 | 2 |
-| ft_memcmp | Part 1 | 1 |
-| ft_memrcpy | Expansion | 2 |
-| ft_memcpy | Part 1 | 1 |
-| ft_memdel | Part 2 | 3 |
-| ft_memjoin | Expansion | 2 |
-| ft_memmove | Part 1 | 3 |
-| ft_memset | Part 1 | 1 |
-| ft_power | Expansion | 3 |
-| ft_putchar | Part 2 | 2 |
-| ft_putchar_fd | Part 2 | 1 |
-| ft_putendl | Part 2 | 4 |
-| ft_putendl_fd | Part 2 | 3 |
-| ft_putnbr | Part 2 | 5 |
-| ft_putnbr_fd | Part 2 | 4 |
-| ft_putstr | Part 2 | 3 |
-| ft_putstr_fd | Part 2 | 2 |
-| ft_realloc | Expansion | 1 |
-| ft_strcat | Part 1 | 3 |
-| ft_strchr | Part 1 | 4 |
-| ft_strclr | Part 2 | 3 |
-| ft_strcmp | Part 1 | 3 |
-| ft_strcpy | Part 1 | 3 |
-| ft_strdel | Part 2 | 4 |
-| ft_strdup | Part 1 | 4 |
-| ft_strequ | Part 2 | 4 |
-| ft_striter | Part 2 | 1 |
-| ft_striteri | Part 2 | 2 |
-| ft_strjoin | Part 2 | 3 |
-| ft_strlcat | Part 1 | 4 |
-| ft_strlen | Part 1 | 2 |
-| ft_strmap | Part 2 | 1 |
-| ft_strmapi | Part 2 | 2 |
-| ft_strncat | Part 1 | 4 |
-| ft_strnchr | Expansion | 3 |
-| ft_strncmp | Part 1 | 2 |
-| ft_strncpy | Part 1 | 4 |
-| ft_strnequ | Part 2 | 3 |
-| ft_strnew | Part 2 | 4 |
-| ft_strnlen | Expansion | 1 |
-| ft_strnotchr | Expansion | 4 |
-| ft_strnstr | Part 1 | 5 |
-| ft_strrchr | Part 1 | 4 |
-| ft_strsplit | Part 2 | 8 |
-| ft_strstr | Part 1 | 6 |
-| ft_strsub | Part 2 | 7 |
-| ft_strtrim | Part 2 | 7 |
-| ft_tolower | Part 1 | 2 |
-| ft_toupper | Part 1 | 2 |
+|ft_ischar      | Expansion	    |    1          |      
+|ft_isdigit	    | Part1	        |    1          |   
+|---------------|---------------|---------------|
