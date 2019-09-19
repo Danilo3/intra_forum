@@ -34,18 +34,7 @@ What is the point of sharing the results and the return value, you ask. Well, th
 
 Try for clarification to conduct such [tests][Тесты взяты отсюда]:
 
-Before : || After :
-dst | src | size || dst | return
-------------------------||--------------------
-dst\0 | src\0 | 0 || dst\0 | 3
-dst\0 | src\0 | 1 || dst\0 | 4
-dst\0 | src\0 | 2 || dst\0 | 5
-dst\0 | src\0 | 3 || dst\0 | 6
-dst\0 | src\0 | 4 || dst\0 | 6
-dst\0 | src\0 | 5 || dsts\0 | 6
-dst\0 | src\0 | 6 || dstsr\0 | 6
-dst\0 | src\0 | 7 || dstsrc\0 | 6
-dst\0 | src\0 | 8 || dstsrc\0 | 6
+![table](images/table_strlcat.png)
 
 ___
 
@@ -79,27 +68,8 @@ ___
 **_##### Функция **_Функция призвана склеивать две строки и возвращать показатель результатов работы. Третий параметр отвечает за предельное место, отведённое под результат. Если его хватает, чтобы впихнуть не только строку назначения, но и хоть что-то от строки источника, то склеивание происходит, а результирующая строка гарантировано нуль терминирована. Если нет, то склеивание даже не пытались начать и про конец строки никто и не вспоминает. В первом случае вернут сумму длин входных строк, во втором сумму длины выделенного места и строки назначения. И всё это время мы надеялись, что программа не завершиться неожиданно, когда строка назначения оказалась чем угодно, только не строкой Си._**
 
 Попробуйте для уяснения провести такие [тесты][Тесты взяты отсюда]:
+![table](images/table_strlcat.png)
 
-
-### Table 2. Таблица 2.
-
-|        Before :        |       After :      |
-|                        |                    |
-| dst  | src    | size   | dst      | return  |
-| ---- | ------ | ------ |--------- | ------- |
-|dst\0 | src\0  | 0      | dst\0    | 3       |
-|dst\0 | src\0  | 1      | dst\0    | 4       |
-|dst\0 | src\0  | 2      | dst\0    | 5       |
-|dst\0 | src\0  | 3      | dst\0    | 6       |
-|dst\0 | src\0  | 4      | dst\0    | 6       |
-|dst\0 | src\0  | 5      | dsts\0   | 6       |
-|dst\0 | src\0  | 6      | dstsr\0  | 6       |
-|dst\0 | src\0  | 7      | dstsrc\0 | 6       |
-|dst\0 | src\0  | 8      | dstsrc\0 | 6       |
-
-| name/имя      | part/часть    | order/порядок |
-| ------------- | ------------- | ------------- |
-|ft_ischar      | Expansion	    |  1            |  
 ___
 [FreeBSD]: https://github.com/lattera/freebsd/blob/master/sys/libkern/strlcat.c
 [Apple]: https://opensource.apple.com/source/Libc/Libc-825.26/string/strlcat.c.auto.html
