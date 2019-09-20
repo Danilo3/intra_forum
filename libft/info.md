@@ -61,3 +61,5 @@
 5) про Makefile
    - [Origin](https://forum.intra.42.fr/topics/20222/messages)
    - [Github](https://github.com/Danilo3/intra_forum/blob/master/libft/makefile.md)
+6) про Memmove
+   - [Toster](https://toster.ru/q/303725)
